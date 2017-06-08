@@ -19,7 +19,6 @@ public class Get {
 		ResponseBody response = client.newCall(request).execute().body();
 		System.out.println(response.toString());
 		
-		
 	}
 
 }
